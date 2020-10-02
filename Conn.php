@@ -24,6 +24,8 @@ class Conn {
         }       
         return self::$Connect;
     }
+
+    
     
     public function getConn() {
         return self::Conectar();

@@ -18,7 +18,10 @@ include_once('include/header.php');
         $resultado_user->bindParam(':limit', $limit, PDO::PARAM_INT);
         $resultado_user->execute();
         
-        $row_user = $resultado_user->fetch(PDO::FETCH_ASSOC); ?>
+        $row_user = $resultado_user->fetch(PDO::FETCH_ASSOC); 
+        
+        ?>
+        
         <div class="card">
             <div class="card-header">
             <h5 class="card-title"><?php echo $row_user['reu_titulo'] ?></h5>

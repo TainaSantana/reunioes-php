@@ -26,19 +26,16 @@ session_start();
     <div class="collapse navbar-collapse" id="navbarCollapse">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item">
-          <a class="nav-link" href="http://localhost/lds-reuniao/index.php">Home</a>
+          <a class="nav-link" href="../lds-reuniao/index.php">Home</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="cadastrar.php">Agendamento de Reunião</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#">Atas</a>
+            <a class="nav-link" href="ata.php">Atas</a>
           </li>
       </ul>
-      <form method="GET" class="form-inline mt-2 mt-md-0" id="search-form">
-        <input class="form-control mr-sm-2" type="text" id="search" name="search" placeholder="Digite um termo..." aria-label="Search">
-        <button class="btn btn-outline-info" id="search-btn" type="submit">Buscar</button>
-      </form>
+      
     </div>
   </nav>
     </header>
